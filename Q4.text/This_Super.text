@@ -1,0 +1,44 @@
+super() as well as this() both are used to make constructor calls. super() is used to call Base class’s 
+        constructor(i.e, Parent’s class) while this() is used to call current class’s constructor.
+        
+        super keyword: 
+        
+        The super keyword in java is a reference to its immediate parents class object. If there is no immediate perent 
+        class then super keyword refer to Object class because Object is the parent of all the java class. Whenever you
+        create the instance of a subclass, an instance of parent class is created implicitly which is referred by the
+        super reference variable.
+        
+        Usage of super Keyword
+        
+        1. super can be used to refer to the immediate parent class instance variable.
+		2. super can be used to invoke the immediate parent class method.
+		3. super() can be used to invoke immediate parent class constructor.
+
+
+        super keyword extend the parent class
+
+
+
+
+
+
+
+
+
+
+
+
+
+        this keyword:  
+  
+     We can use this() only inside constructor and nowhere else, not even in static context not even inside methods
+     and this() should be first statement inside constructor. 
+     
+     
+     usage of this keyword
+     
+     1: Invoke current class constructor
+     2: Invoke current class method
+     3: Return the current class object
+     4: Pass an argument in the method call
+     5: Pass an argument in the constructor call
